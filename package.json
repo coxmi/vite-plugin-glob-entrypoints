@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-glob-entrypoints",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add multiple glob entrypoints to your vite config",
   "license": "MIT",
   "author": "Michael Cox",
