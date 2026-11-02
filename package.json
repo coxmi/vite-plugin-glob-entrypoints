@@ -1,0 +1,40 @@
+{
+  "name": "vite-plugin-glob-entrypoints",
+  "version": "0.0.1",
+  "description": "Add multiple glob entrypoints to your vite config",
+  "license": "MIT",
+  "author": "Michael Cox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coxmi/vite-plugin-glob-entrypoints.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coxmi/vite-plugin-glob-entrypoints/issues"
+  },
+  "homepage": "https://github.com/coxmi/vite-plugin-glob-entrypoints#readme",
+  "keywords": [
+    "vite",
+    "entrypoints",
+    "multiple",
+    "glob"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build",
+    "pub": "npm version patch && npm publish"
+  },
+  "peerDependencies": {
+    "vite": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
